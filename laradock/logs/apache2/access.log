@@ -1,0 +1,44 @@
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:14:54:59 +0000] "GET / HTTP/1.1" 200 6373 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:14:54:59 +0000] "GET / HTTP/1.1" 200 bytesIn:694 bytesOut:6373 reqTime:1
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:14:55:01 +0000] "GET /favicon.ico HTTP/1.1" 200 295 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:14:55:01 +0000] "GET /favicon.ico HTTP/1.1" 200 bytesIn:1313 bytesOut:295 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:14:55:51 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.19.0.1 - - [29/Nov/2021:14:55:51 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:04:52 +0000] "GET / HTTP/1.1" 200 6373 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:04:52 +0000] "GET / HTTP/1.1" 200 bytesIn:1417 bytesOut:6373 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:04:56 +0000] "GET /test HTTP/1.1" 500 587171 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:04:56 +0000] "GET /test HTTP/1.1" 500 bytesIn:1396 bytesOut:587171 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:05:44 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.19.0.1 - - [29/Nov/2021:15:05:44 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:07:43 +0000] "GET /test HTTP/1.1" 500 613898 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:07:43 +0000] "GET /test HTTP/1.1" 500 bytesIn:1421 bytesOut:613898 reqTime:2
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:08:29 +0000] "GET /test HTTP/1.1" 500 613935 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:08:29 +0000] "GET /test HTTP/1.1" 500 bytesIn:1421 bytesOut:613935 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:09:00 +0000] "GET /test HTTP/1.1" 200 1175 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:09:00 +0000] "GET /test HTTP/1.1" 200 bytesIn:1421 bytesOut:1175 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:09:52 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.19.0.1 - - [29/Nov/2021:15:09:52 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:16:38 +0000] "GET /register HTTP/1.1" 200 1537 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:16:38 +0000] "GET /register HTTP/1.1" 200 bytesIn:1399 bytesOut:1537 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:17:04 +0000] "GET /register HTTP/1.1" 200 1570 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:17:04 +0000] "GET /register HTTP/1.1" 200 bytesIn:1425 bytesOut:1570 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:17:16 +0000] "POST /create HTTP/1.1" 302 1569 "http://localhost/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:17:16 +0000] "POST /create HTTP/1.1" 302 bytesIn:1649 bytesOut:1569 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:17:16 +0000] "GET /register HTTP/1.1" 200 1569 "http://localhost/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:17:16 +0000] "GET /register HTTP/1.1" 200 bytesIn:1469 bytesOut:1569 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:17:23 +0000] "GET /test HTTP/1.1" 200 1307 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:17:23 +0000] "GET /test HTTP/1.1" 200 bytesIn:1395 bytesOut:1307 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:18:15 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.19.0.1 - - [29/Nov/2021:15:18:15 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:19:34 +0000] "GET /test HTTP/1.1" 200 1331 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:19:34 +0000] "GET /test HTTP/1.1" 200 bytesIn:1421 bytesOut:1331 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:20:08 +0000] "GET /test HTTP/1.1" 200 1331 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:20:08 +0000] "GET /test HTTP/1.1" 200 bytesIn:1421 bytesOut:1331 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:20:15 +0000] "GET /register HTTP/1.1" 200 1570 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:20:15 +0000] "GET /register HTTP/1.1" 200 bytesIn:1399 bytesOut:1570 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:20:31 +0000] "POST /create HTTP/1.1" 302 1549 "http://localhost/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:20:31 +0000] "POST /create HTTP/1.1" 302 bytesIn:1634 bytesOut:1549 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:20:31 +0000] "GET /test HTTP/1.1" 200 1456 "http://localhost/register" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36"
+[httpd:access] localhost:80 - - 172.19.0.1 - - [29/Nov/2021:15:20:31 +0000] "GET /test HTTP/1.1" 200 bytesIn:1465 bytesOut:1456 reqTime:0
+docker.vm:80 172.19.0.1 - - [29/Nov/2021:15:21:23 +0000] "-" 408 0 "-" "-"
+[httpd:access] docker.vm:80 - - 172.19.0.1 - - [29/Nov/2021:15:21:23 +0000] "-" 408 bytesIn:0 bytesOut:0 reqTime:0
